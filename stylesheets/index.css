@@ -1,0 +1,95 @@
+a, li, button, input {
+  transition: all 0.2s ease-out; }
+
+.box_login {
+  width: 100%;
+  height: auto;
+  padding: 8% 0;
+  display: flex;
+  background-color: #eff2f5; }
+  .box_login .bem_vindo {
+    margin: 0 0 100px 0; }
+  .box_login .row {
+    align-items: center; }
+  .box_login img {
+    width: 50%;
+    margin: 0 0 20px 0; }
+  .box_login .login {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(170, 145, 145, 0.1); }
+    .box_login .login input {
+      height: 60px;
+      margin: 0 0 15px 0; }
+      .box_login .login input::placeholder {
+        color: #aaa; }
+    .box_login .login a {
+      font-size: 15px;
+      font-weight: bolder; }
+    .box_login .login .btn_entrar, .box_login .login .btn_criar {
+      width: 100%;
+      height: auto;
+      font-size: 18px;
+      padding: 15px 0;
+      margin: 0 0 15px 0;
+      font-weight: bolder; }
+    .box_login .login .linha {
+      width: 100%;
+      height: 1px;
+      margin: 10px 0 15px 0;
+      background: #eee; }
+    .box_login .login .btn_criar {
+      background: #42b72a;
+      border-color: #42b72a; }
+  .box_login .pagina {
+    padding: 15px;
+    font-size: 14px;
+    text-align: center; }
+    .box_login .pagina a {
+      font-weight: bolder; }
+
+.footer {
+  color: #888888;
+  font-size: 12px;
+  padding: 20px;
+  text-align: center; }
+  .footer .row {
+    justify-content: center; }
+  .footer .linha {
+    width: 75%;
+    height: 1px;
+    margin: 5px 0;
+    background: #ececec; }
+  .footer .idiomas .idiomas_menu {
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style-type: none; }
+    .footer .idiomas .idiomas_menu li {
+      margin: 0 5px;
+      display: inline-block; }
+      .footer .idiomas .idiomas_menu li a {
+        color: #888888; }
+  .footer .menu {
+    margin: 10px 0; }
+    .footer .menu ul {
+      padding: 0;
+      list-style-type: none; }
+      .footer .menu ul li {
+        margin: 0 5px;
+        display: inline-block; }
+        .footer .menu ul li a {
+          color: #888888; }
+
+@media (max-width: 768px) {
+  .box_login {
+    padding: 50px 20px 20px 20px; }
+    .box_login .row {
+      text-align: center; }
+    .box_login .bem_vindo {
+      margin: 0 0 40px 0; } }
